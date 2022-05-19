@@ -38,20 +38,22 @@
 				u.accepted(i)<br />
 				<span class="comments"># Since then, we spent harmony happiness life every day.</span><br />
 				happy(u, i)<br />
-				<span class="comments"># We enjoy studying together.</span><br />
+				<span class="comments"># We enjoy studying together.(hh, really?)</span><br />
 				study(u, i)<br />
-				<span class="comments"># We enjoy cuisine together.</span><br />
-				dine(u, i)<br />
-				<span class="comments"># We enjoy appointment together.</span><br />
-				appoint(u, i)<br />
-				<span class="comments"># We enjoy vacation together.</span><br />
-				vacation(u, i)<br />
+				<span class="comments"># We enjoy cuisine together.(I can cook big dish and you can cook delicious food.)</span><br />
+				cuisine(u, i)<br />
+				<span class="comments"># We enjoy playing Mahjong together.(Ma Shen)</span><br />
+				Mahjong(u, i)<br />
+				<span class="comments"># We enjoy Honor of Kings together.(I admit you're better)</span><br />
+				HonorOfKings(u, i)<br />
+				<span class="comments"># We also enjoy sex together.(I miss u so)</span><br />
+				sex(u, i)<br />
 				<span class="comments"># Sometimes there are a few conflicts between us.</span><br />
 				conflict(u, i, sometimes=<span class="keyword">True</span>)<br />
 				<span class="comments"># But we are getting more and more in harmony together.</span><br />
 				u.in_harmony_with(i) <br />
 				i.in_harmony_with(u) <br />
-				<span class="comments"># You are the greatest love of my life.</span><br />
+				<span class="comments"># You are the greatest thing of my life.</span><br />
 				while <span class="keyword">True</span>:<br />
 				<span class="placeholder"></span><span class="keyword">if</span> u.with(i):<br />
 				<span class="placeholder"></span><span class="placeholder"></span>u = everything<br />
@@ -67,7 +69,7 @@
 				<canvas id="garden"></canvas>
 				<div id="words">
 					<div id="messages">
-						Qian, I have fallen in love with you for
+						Qin, I have fallen in love with you for
 						<div id="elapseClock"></div>
 					</div>
 					<div id="loveu">
@@ -77,17 +79,15 @@
 				</div>
 			</div>
 		</div>
-		<div id="copyright">
-			Copyright © 2020 <a href='http://sunguoqi.com'>sunguoqi.com</a> 2021-2022
-		</div>
+
 	</div>
 	<script type="text/javascript">
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
 		var together = new Date();
 		// 此处月份介于 0 ~ 11 之间。用本地时间表示，如 8 月要用 7 表示。
-		together.setFullYear(2018, 10, 5);
-		together.setHours(15);
+		together.setFullYear(2020, 4, 20);
+		together.setHours(23);
 		together.setMinutes(0);
 		together.setSeconds(0);
 		together.setMilliseconds(0);
